@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Gerenciamento de produtos no carrinho e processo de pagamento",
+    "line": 1,
+    "id": "gerenciamento-de-produtos-no-carrinho-e-processo-de-pagamento",
+    "tags": [],
+    "uri": "advantageOnlineshopping.feature",
+    "elements": [
+      {
+        "id": "gerenciamento-de-produtos-no-carrinho-e-processo-de-pagamento;buscar-um-produto",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Buscar um produto",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu estou na página inicial do site Advantage Online Shopping",
+            "result": {
+              "status": "passed",
+              "duration": 1024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "clicar no ícone de lupa no cabeçalho do site",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "digitar \"BOSE SOUNDLINK WIRELESS SPEAKER\" na barra de pesquisa",
+            "result": {
+              "status": "passed",
+              "duration": 3703000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "clico em \"View All\"",
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "devo ver uma lista de produtos relacionados ao nome buscado",
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-produtos-no-carrinho-e-processo-de-pagamento;adicionar-um-produto-ao-carrinho-de-compras",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Adicionar um produto ao carrinho de compras",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que eu estou na página inicial do site Advantage Online Shopping",
+            "result": {
+              "status": "passed",
+              "duration": 729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "estou na página de resultados de busca",
+            "result": {
+              "status": "passed",
+              "duration": 4098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "clico no produto desejado",
+            "result": {
+              "status": "passed",
+              "duration": 1763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "escolher a cor e a quantidade",
+            "result": {
+              "status": "passed",
+              "duration": 404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "clicar no botão \"Adicionar ao Carrinho\"",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "o produto deve ser adicionado ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "gerenciamento-de-produtos-no-carrinho-e-processo-de-pagamento;verificar-produtos-no-carrinho-e-na-tela-de-pagamento",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verificar produtos no carrinho e na tela de pagamento",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "que eu estou na página inicial do site Advantage Online Shopping",
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "adicionei um produto ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 6289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "navegar até tela de order payment",
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "o produto deve estar listado na tela de pagamento com as seguintes informações: nome, cor, quantidade e preço",
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
