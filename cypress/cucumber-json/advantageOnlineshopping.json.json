@@ -2,7 +2,7 @@
   {
     "keyword": "Feature",
     "name": "Gerenciamento de produtos no carrinho e processo de pagamento",
-    "line": 1,
+    "line": 3,
     "id": "gerenciamento-de-produtos-no-carrinho-e-processo-de-pagamento",
     "tags": [],
     "uri": "advantageOnlineshopping.feature",
@@ -10,7 +10,7 @@
       {
         "id": "gerenciamento-de-produtos-no-carrinho-e-processo-de-pagamento;buscar-um-produto",
         "keyword": "Scenario",
-        "line": 3,
+        "line": 7,
         "name": "Buscar um produto",
         "tags": [],
         "type": "scenario",
@@ -18,51 +18,51 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "que eu estou na página inicial do site Advantage Online Shopping",
             "result": {
               "status": "passed",
-              "duration": 1024000000
+              "duration": 440000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 5,
+            "line": 8,
             "name": "clicar no ícone de lupa no cabeçalho do site",
             "result": {
               "status": "passed",
-              "duration": 82000000
+              "duration": 363000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 9,
             "name": "digitar \"BOSE SOUNDLINK WIRELESS SPEAKER\" na barra de pesquisa",
             "result": {
               "status": "passed",
-              "duration": 3703000000
+              "duration": 4390000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 7,
+            "line": 10,
             "name": "clico em \"View All\"",
             "result": {
               "status": "passed",
-              "duration": 144000000
+              "duration": 210000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 11,
             "name": "devo ver uma lista de produtos relacionados ao nome buscado",
             "result": {
               "status": "passed",
-              "duration": 52000000
+              "duration": 75000000
             }
           }
         ]
@@ -70,7 +70,7 @@
       {
         "id": "gerenciamento-de-produtos-no-carrinho-e-processo-de-pagamento;adicionar-um-produto-ao-carrinho-de-compras",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 13,
         "name": "Adicionar um produto ao carrinho de compras",
         "tags": [],
         "type": "scenario",
@@ -78,61 +78,61 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
+            "line": 5,
             "name": "que eu estou na página inicial do site Advantage Online Shopping",
             "result": {
               "status": "passed",
-              "duration": 729000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "estou na página de resultados de busca",
-            "result": {
-              "status": "passed",
-              "duration": 4098000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "clico no produto desejado",
-            "result": {
-              "status": "passed",
-              "duration": 1763000000
+              "duration": 1196000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
+            "name": "estou na página de resultados de busca",
+            "result": {
+              "status": "passed",
+              "duration": 3552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "clico no produto desejado",
+            "result": {
+              "status": "passed",
+              "duration": 1184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
             "name": "escolher a cor e a quantidade",
             "result": {
               "status": "passed",
-              "duration": 404000000
+              "duration": 390000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 15,
+            "line": 17,
             "name": "clicar no botão \"Adicionar ao Carrinho\"",
             "result": {
               "status": "passed",
-              "duration": 126000000
+              "duration": 143000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
+            "line": 18,
             "name": "o produto deve ser adicionado ao carrinho",
             "result": {
               "status": "passed",
-              "duration": 159000000
+              "duration": 205000000
             }
           }
         ]
@@ -140,7 +140,7 @@
       {
         "id": "gerenciamento-de-produtos-no-carrinho-e-processo-de-pagamento;verificar-produtos-no-carrinho-e-na-tela-de-pagamento",
         "keyword": "Scenario",
-        "line": 18,
+        "line": 20,
         "name": "Verificar produtos no carrinho e na tela de pagamento",
         "tags": [],
         "type": "scenario",
@@ -148,41 +148,41 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 19,
+            "line": 5,
             "name": "que eu estou na página inicial do site Advantage Online Shopping",
             "result": {
               "status": "passed",
-              "duration": 305000000
+              "duration": 337000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 20,
+            "line": 21,
             "name": "adicionei um produto ao carrinho",
             "result": {
               "status": "passed",
-              "duration": 6289000000
+              "duration": 6387000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 21,
+            "line": 22,
             "name": "navegar até tela de order payment",
             "result": {
               "status": "passed",
-              "duration": 232000000
+              "duration": 242000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 22,
+            "line": 23,
             "name": "o produto deve estar listado na tela de pagamento com as seguintes informações: nome, cor, quantidade e preço",
             "result": {
               "status": "passed",
-              "duration": 243000000
+              "duration": 294000000
             }
           }
         ]

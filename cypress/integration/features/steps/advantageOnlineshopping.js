@@ -18,6 +18,10 @@ When('clico em "View All"', () => {
   HomePage.btnViewAll();
 });
 
-Then('devo ver uma lista de produtos relacionados ao nome buscado', (nomeProduto) => {
-  HomePage.verifyProductInList(nomeProduto);
+Then('devo ver uma lista de produtos relacionados ao nome buscado', () => {
+    cy.get('div[data-ng-click="$event.stopPropagation()"] h3').eq(1)
+      .contains('TOP RESULTS FOR: "BOSE SOUNDLINK WIRELESS SPEAKER"') 
+      .should('be.visible');
+  
+ 
 });

@@ -35,13 +35,8 @@ class HomePage {
   logo(){
     cy.get('.logoDemo').click()
   }
-  clickColor(){
-    cy.get('span.productColor').each(($color) => {
-      // Clica em cada cor
-      cy.wrap($color).click();
-      cy.wrap($color).should('have.class', 'colorSelected');
-    });
-  }
+
+ 
 }
 
 export default new HomePage();
