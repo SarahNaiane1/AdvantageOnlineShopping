@@ -20,12 +20,12 @@ And('clico no produto desejado', () => {
     HomePage.clickProduct()
 
 });
-And('escolher a cor e a quantidade', () => {
+And('escolho a cor e a quantidade', () => {
     AddProducts.clickColor()
     AddProducts.addQt()
 
 });
-When('clicar no botão "Adicionar ao Carrinho"', () => {
+When('clico no botão "Adicionar ao Carrinho"', () => {
     AddProducts.addToCart()
 
 });

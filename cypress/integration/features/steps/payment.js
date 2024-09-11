@@ -7,7 +7,7 @@ const nomeProduto = "BOSE SOUNDLINK WIRELESS SPEAKER";
 Given('que eu estou na página inicial do site Advantage Online Shopping', () => {
     HomePage.VisitPage();
 });
-And('adicionei um produto ao carrinho', () => {
+And('adiciono um produto ao carrinho', () => {
     HomePage.logo()
     HomePage.clicIconkMagnifyingGlass();
     HomePage.searchProduct(nomeProduto);
@@ -19,7 +19,7 @@ And('adicionei um produto ao carrinho', () => {
     AddProductsPage.openCart()
     AddProductsPage.totalProducts()
 });
-When('navegar até tela de order payment', () => {
+When('navego até tela de order payment', () => {
     PaymentPage.btnCheckout()
 
 });

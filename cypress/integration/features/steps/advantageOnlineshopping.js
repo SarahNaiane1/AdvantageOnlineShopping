@@ -6,11 +6,11 @@ Given('que eu estou na página inicial do site Advantage Online Shopping', () =>
   HomePage.VisitPage();
 });
 
-And('clicar no ícone de lupa no cabeçalho do site', () => {
+And('clico no ícone de lupa no cabeçalho do site', () => {
   HomePage.clicIconkMagnifyingGlass();
 });
 
-And('digitar {string} na barra de pesquisa', (nomeProduto) => {
+And('digito {string} na barra de pesquisa', (nomeProduto) => {
   HomePage.searchProduct(nomeProduto);
 });
 
