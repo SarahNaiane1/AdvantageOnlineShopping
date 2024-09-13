@@ -23,11 +23,12 @@ Siga os passos abaixo para configurar o ambiente de testes:
    ```bash
    git clone https://github.com/seu-usuario/cypress-cucumber-project.git~
 
-2. ** Dependências**
+2. **Dependencias:**
+
 Instale as dependências do projeto, incluindo o Cypress, que estão listadas no package.json do projeto. 
 
 npm install
-# ou
+ou
 yarn install
 
 
@@ -42,4 +43,4 @@ cypress/plugins: Contém plugins e configurações do Cypress.
 
 cypress.json: Arquivo de configuração do Cypress.
 
-Para 
+
