@@ -45,18 +45,19 @@ Com yarn:
 ```
 
 4. **Estrutura do Projeto**
-cypress/integration: Contém os arquivos de especificação dos testes escritos em Cucumber.
+   
+      cypress/integration: Contém os arquivos de especificação dos testes escritos em Cucumber.
+      
+      cypress/support: Contém arquivos de suporte, como funções auxiliares e configurações globais.
+      
+      cypress/fixtures: Contém dados de teste simulados (fixtures).
+      
+      cypress/plugins: Contém plugins e configurações do Cypress.
+      
+      cypress.json: Arquivo de configuração do Cypress.
 
-cypress/support: Contém arquivos de suporte, como funções auxiliares e configurações globais.
 
-cypress/fixtures: Contém dados de teste simulados (fixtures).
-
-cypress/plugins: Contém plugins e configurações do Cypress.
-
-cypress.json: Arquivo de configuração do Cypress.
-
-
-5. Executando os Testes
+6. Executando os Testes
 ```bash
 npx cypress open
 ```
