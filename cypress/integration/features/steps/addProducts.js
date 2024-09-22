@@ -8,28 +8,31 @@ Given('que eu estou na página inicial do site Advantage Online Shopping', () =>
 });
 
 
-And('estou na página de resultados de busca', () => {
+And('adiciona um produto ao carrinho', () => {
     HomePage.logo()
     HomePage.clicIconkMagnifyingGlass();
-    HomePage.searchProduct(nomeProduto);
+    HomePage.searchProductValid(nomeProduto);
 
 });
 
-And('clico no produto desejado', () => {
+And('o usuário clica no produto desejado', () => {
     HomePage.btnViewAll()
     HomePage.clickProduct()
 
 });
-And('escolho a cor e a quantidade', () => {
+And('o usuário seleciona a cor e a quantidade do produto', () => {
     AddProducts.clickColor()
     AddProducts.addQt()
 
 });
-When('clico no botão "Adicionar ao Carrinho"', () => {
+When('o usuário clica no botão "Adicionar ao Carrinho"', () => {
     AddProducts.addToCart()
 
 });
-Then('o produto deve ser adicionado ao carrinho', () => {
+Then('o produto deve ser adicionado ao carrinho com as opções selecionadas', () => {
     AddProducts.openCart()
     AddProducts.totalProducts()
 });
+
+
+

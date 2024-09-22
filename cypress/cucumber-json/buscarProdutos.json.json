@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Buscar Produtos",
+    "line": 1,
+    "id": "buscar-produtos",
+    "tags": [],
+    "uri": "buscarProdutos.feature",
+    "elements": [
+      {
+        "id": "buscar-produtos;buscar-um-produto-com-sucesso",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Buscar um produto com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que o usuário acessou a página inicial do site Advantage Online Shopping",
+            "result": {
+              "status": "passed",
+              "duration": 3835000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "o usuário clica no ícone de lupa no cabeçalho do site",
+            "result": {
+              "status": "passed",
+              "duration": 2607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o usuário digita o nome de um produto válido na barra de pesquisa",
+            "result": {
+              "status": "passed",
+              "duration": 6691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "o usuário clica em 'View All'",
+            "result": {
+              "status": "passed",
+              "duration": 349000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "o sistema deve retornar uma lista de produtos relacionados ao nome buscado",
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buscar-produtos;buscar-um-produto-inexistente",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Buscar um produto inexistente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que o usuário acessou a página inicial do site Advantage Online Shopping",
+            "result": {
+              "status": "passed",
+              "duration": 3351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "o usuário clica no ícone de lupa no cabeçalho do site",
+            "result": {
+              "status": "passed",
+              "duration": 1713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "o usuário digita um nome de produto inexistente na barra de pesquisa",
+            "result": {
+              "status": "passed",
+              "duration": 6020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "clica em \"Enter\"",
+            "result": {
+              "status": "passed",
+              "duration": 310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "o sistema deve retornar uma mensagem informando que nenhum resultado foi encontrado",
+            "result": {
+              "status": "passed",
+              "duration": 304000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

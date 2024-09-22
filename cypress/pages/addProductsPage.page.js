@@ -16,5 +16,10 @@ class addProductsPage {
     openCart(){
         cy.get('#shoppingCartLink').click()
     }
+    checkQuantityErrorMessage() {
+        cy.get('.error-message-selector') 
+          .should('be.visible')
+          .and('contain.text', 'Quantidade é obrigatória'); 
+    }
 }
 export default new addProductsPage();

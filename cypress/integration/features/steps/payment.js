@@ -4,16 +4,22 @@ import AddProductsPage from "../../../pages/addProductsPage.page"
 import PaymentPage from "../../../pages/payment.page"
 
 const nomeProduto = "BOSE SOUNDLINK WIRELESS SPEAKER";
-Given('que eu estou na página inicial do site Advantage Online Shopping', () => {
+Given('que o usuário acessou a página inicial do site Advantage Online Shopping', () => {
     HomePage.VisitPage();
 });
-And('adiciono um produto ao carrinho', () => {
+And('o usuário clica no ícone de lupa no cabeçalho do site', () => {
     HomePage.logo()
     HomePage.clicIconkMagnifyingGlass();
-    HomePage.searchProduct(nomeProduto);
+
+});
+And('busca e seleciona o produto desejado', () => {
+    HomePage.searchProductValid(nomeProduto);
     HomePage.btnViewAll()
     HomePage.clickProduct()
     AddProductsPage.clickColor()
+
+});
+And('adiciono um produto ao carrinho', () => {
     AddProductsPage.addQt()
     AddProductsPage.addToCart()
     AddProductsPage.openCart()
@@ -24,10 +30,7 @@ When('navego até tela de order payment', () => {
 
 });
 Then('o produto deve estar listado na tela de pagamento com as seguintes informações: nome, cor, quantidade e preço', () => {
- 
     PaymentPage.paymentDataValidation()
-
-
 
 });
 

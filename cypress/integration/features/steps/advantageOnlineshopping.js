@@ -1,27 +1,37 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
-import HomePage from "../../../pages/advantageOnlineshopping.page"
-const nomeProduto = "BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES";
+import HomePage from "../../../pages/advantageOnlineshopping.page";
 
-Given('que eu estou na página inicial do site Advantage Online Shopping', () => {
+const produtoValido = "Bose SoundLink Wireless Speaker";
+const produtoInexistente = "PRODUTO INEXISTENTE";
+
+Given('que o usuário acessou a página inicial do site Advantage Online Shopping', () => {
   HomePage.VisitPage();
 });
 
-And('clico no ícone de lupa no cabeçalho do site', () => {
+And('o usuário clica no ícone de lupa no cabeçalho do site', () => {
   HomePage.clicIconkMagnifyingGlass();
 });
 
-And('digito {string} na barra de pesquisa', (nomeProduto) => {
-  HomePage.searchProduct(nomeProduto);
+And('o usuário digita o nome de um produto válido na barra de pesquisa', () => {
+  HomePage.searchProductValid(produtoValido);
 });
 
-When('clico em "View All"', () => {
+When("o usuário clica em 'View All'", () => {
   HomePage.btnViewAll();
 });
 
-Then('devo ver uma lista de produtos relacionados ao nome buscado', () => {
-    cy.get('div[data-ng-click="$event.stopPropagation()"] h3').eq(1)
-      .contains('TOP RESULTS FOR: "BOSE SOUNDLINK WIRELESS SPEAKER"') 
-      .should('be.visible');
-  
- 
+Then('o sistema deve retornar uma lista de produtos relacionados ao nome buscado', () => {
+  HomePage.seeProducts(produtoValido);
+});
+
+And('o usuário digita um nome de produto inexistente na barra de pesquisa', () => {
+  HomePage.searchProductInvalid();
+});
+
+When('clica em "Enter"', () => { 
+  HomePage.clickOnSearch();
+});
+
+Then('o sistema deve retornar uma mensagem informando que nenhum resultado foi encontrado', () => {
+  HomePage.notResults();
 });
