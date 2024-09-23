@@ -1,4 +1,4 @@
-Feature: Buscar Produtos 
+Feature: Buscar ProdutOSs 
 
   Background:
     Given que o usuário acessou a página inicial do site Advantage Online Shopping

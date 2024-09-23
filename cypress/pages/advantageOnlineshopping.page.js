@@ -1,4 +1,5 @@
 class HomePage {
+  
   VisitPage() {
     cy.viewport(1440, 900);
     cy.visit("/");
@@ -8,8 +9,8 @@ class HomePage {
     cy.get('svg[data-ng-click="openSearchProducts()"]').click();
   }
 
-  searchProductValid(nomeProduto) {
-    cy.get('#autoComplete').type(nomeProduto);
+  searchProductValid() {
+    cy.get('#autoComplete').type('Bose SoundLink Wireless Speaker');
   }
 
   searchProductInvalid() {

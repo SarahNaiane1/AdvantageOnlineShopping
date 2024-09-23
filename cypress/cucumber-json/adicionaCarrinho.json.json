@@ -22,7 +22,7 @@
             "name": "que eu estou na página inicial do site Advantage Online Shopping",
             "result": {
               "status": "passed",
-              "duration": 3747000000
+              "duration": 9191000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "adiciona um produto ao carrinho",
             "result": {
               "status": "passed",
-              "duration": 9501000000
+              "duration": 17809000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "o usuário clica no produto desejado",
             "result": {
               "status": "passed",
-              "duration": 1162000000
+              "duration": 2638000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "o usuário seleciona a cor e a quantidade do produto",
             "result": {
               "status": "passed",
-              "duration": 1087000000
+              "duration": 2149000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "o usuário clica no botão \"Adicionar ao Carrinho\"",
             "result": {
               "status": "passed",
-              "duration": 410000000
+              "duration": 835000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "o produto deve ser adicionado ao carrinho com as opções selecionadas",
             "result": {
               "status": "passed",
-              "duration": 372000000
+              "duration": 631000000
             }
           }
         ]

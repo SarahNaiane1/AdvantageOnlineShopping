@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Buscar Produtos",
+    "name": "Buscar ProdutOSs",
     "line": 1,
-    "id": "buscar-produtos",
+    "id": "buscar-produtoss",
     "tags": [],
     "uri": "buscarProdutos.feature",
     "elements": [
       {
-        "id": "buscar-produtos;buscar-um-produto-com-sucesso",
+        "id": "buscar-produtoss;buscar-um-produto-com-sucesso",
         "keyword": "Scenario",
         "line": 6,
         "name": "Buscar um produto com sucesso",
@@ -22,7 +22,7 @@
             "name": "que o usuário acessou a página inicial do site Advantage Online Shopping",
             "result": {
               "status": "passed",
-              "duration": 3835000000
+              "duration": 18663000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "o usuário clica no ícone de lupa no cabeçalho do site",
             "result": {
               "status": "passed",
-              "duration": 2607000000
+              "duration": 4192000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "o usuário digita o nome de um produto válido na barra de pesquisa",
             "result": {
               "status": "passed",
-              "duration": 6691000000
+              "duration": 15964000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "o usuário clica em 'View All'",
             "result": {
               "status": "passed",
-              "duration": 349000000
+              "duration": 790000000
             }
           },
           {
@@ -62,13 +62,13 @@
             "name": "o sistema deve retornar uma lista de produtos relacionados ao nome buscado",
             "result": {
               "status": "passed",
-              "duration": 155000000
+              "duration": 650000000
             }
           }
         ]
       },
       {
-        "id": "buscar-produtos;buscar-um-produto-inexistente",
+        "id": "buscar-produtoss;buscar-um-produto-inexistente",
         "keyword": "Scenario",
         "line": 12,
         "name": "Buscar um produto inexistente",
@@ -82,7 +82,7 @@
             "name": "que o usuário acessou a página inicial do site Advantage Online Shopping",
             "result": {
               "status": "passed",
-              "duration": 3351000000
+              "duration": 13468000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "o usuário clica no ícone de lupa no cabeçalho do site",
             "result": {
               "status": "passed",
-              "duration": 1713000000
+              "duration": 2343000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "o usuário digita um nome de produto inexistente na barra de pesquisa",
             "result": {
               "status": "passed",
-              "duration": 6020000000
+              "duration": 9721000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "clica em \"Enter\"",
             "result": {
               "status": "passed",
-              "duration": 310000000
+              "duration": 990000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "o sistema deve retornar uma mensagem informando que nenhum resultado foi encontrado",
             "result": {
               "status": "passed",
-              "duration": 304000000
+              "duration": 415000000
             }
           }
         ]
