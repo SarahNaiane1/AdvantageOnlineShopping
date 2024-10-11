@@ -34,7 +34,7 @@ Siga os passos abaixo para configurar o ambiente de testes:
 Com NPM: 
 
 ```bash
-  yarn install
+  npm install
 ```
 
 
