@@ -4,6 +4,7 @@
   "description": "Automated tests with Cypress and Cucumber",
   "main": "index.js",
   "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
     "cypress": "^9.3.1",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-file-upload": "^5.0.8",

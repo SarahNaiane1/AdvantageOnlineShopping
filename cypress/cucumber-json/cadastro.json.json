@@ -1,0 +1,1163 @@
+[
+  {
+    "description": "    Como um novo usuário do sistema, desejo criar uma conta, para acessar o sistema e utilizar suas funcionalidades após realizar o login.",
+    "keyword": "Feature",
+    "name": "Registro de usuário na Advantage Online Shopping",
+    "line": 1,
+    "id": "registro-de-usuário-na-advantage-online-shopping",
+    "tags": [],
+    "uri": "cadastro.feature",
+    "elements": [
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;exibir-mensagens-de-erro-ao-tentar-registrar-sem-preencher-campos-obrigatórios",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Exibir mensagens de erro ao tentar registrar sem preencher campos obrigatórios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 11018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 5164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "o usuário não preenche nenhum campo obrigatório",
+            "result": {
+              "status": "passed",
+              "duration": 4997000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "mensagens de erro devem ser exibidas informando que os campos são obrigatórios",
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;cadastro-sem-preencher-campo-de-email",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Cadastro sem preencher campo de Email",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 5750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1423000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 5019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "o usuário não está registrado",
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "o usuário deixa o campo E-mail vazio",
+            "result": {
+              "status": "passed",
+              "duration": 4187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "a mensagem \"Email não pode ser vazio\" é exibida",
+            "result": {
+              "status": "passed",
+              "duration": 693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;cadastro-sem-preencher-campo-de-senha",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Cadastro sem preencher campo de Senha",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 7053000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "o usuário deixa o campo Senha vazio",
+            "result": {
+              "status": "passed",
+              "duration": 4032000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "a mensagem \"Senha não pode ser vazio\" é exibida",
+            "result": {
+              "status": "passed",
+              "duration": 965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;cadastro-sem-preencher-campo-de-confirmar-senha",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Cadastro sem preencher campo de Confirmar Senha",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 7904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4890000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "o usuário deixa o campo Confirmar Senha vazio",
+            "result": {
+              "status": "passed",
+              "duration": 4217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "a mensagem \"Confirmar Senha não pode ser vazio\" é exibida",
+            "result": {
+              "status": "passed",
+              "duration": 1149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;cadastro-com-senha-e-confirmação-de-senha-diferentes",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Cadastro com Senha e Confirmação de Senha diferentes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 6118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "insere senhas diferentes nos campos de Senha e Confirmação de Senha",
+            "result": {
+              "status": "passed",
+              "duration": 6164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "a mensagem \"Senha não combinam\" é exibida",
+            "result": {
+              "status": "passed",
+              "duration": 773000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;cadastro-com-senha-curta",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Cadastro com Senha curta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 4897000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "cadastra com senha muito curta no campo de \"Password\"",
+            "result": {
+              "status": "passed",
+              "duration": 2148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "a mensagem \"Use 4 characters or longer\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;cadastro-com-senha-sem-uma-letra",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Cadastro com Senha sem uma letra",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 4330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "cadastra com senha sem uma letra",
+            "result": {
+              "status": "passed",
+              "duration": 1908000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "a mensagem \"Incluind at least one letter\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;cadastro-com-senha-com-10-caracteres",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Cadastro com Senha com 10 caracteres",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 3722000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "cadastra com senha com 10 caracteres",
+            "result": {
+              "status": "passed",
+              "duration": 2658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "a mensagem \"Use maximum 12 character\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;cadastro-com-senha-sem-uma-letra-em-maiúsculo",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Cadastro com Senha sem uma letra em maiúsculo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 4378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1352000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "digita senha sem letra em maiúsculo",
+            "result": {
+              "status": "passed",
+              "duration": 2169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "a mensagem \"One upper letter at least\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;cadastro-com-senha-sem-uma-letra-em-minúsculo",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Cadastro com Senha sem uma letra em minúsculo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 3097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "digita senha sem letra em minúsculo",
+            "result": {
+              "status": "passed",
+              "duration": 2758000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "a mensagem \"One lower letter at least\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;digitar-um-e-mail-em-formato-inválido",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Digitar um e-mail em formato inválido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 3753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1830000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 3985000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "digita um e-mail inválido",
+            "result": {
+              "status": "passed",
+              "duration": 2196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "a mensagem \"Your email address isnt formatted correctly\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;digitar-um-nome-com-mais-de-15-caracteres",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Digitar um nome com mais de 15 caracteres",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 3052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4565000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "digita um nome com mais de 15 caracteres",
+            "result": {
+              "status": "passed",
+              "duration": 3714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "a mensagem \"User maximum 15 characters\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;preencher-os-campos-obrigatórios-e-não-aceitar-os-termos-de-condições",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "Preencher os campos obrigatórios e não aceitar os termos de condições",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 3072000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "preenche os campos obrigatórios",
+            "result": {
+              "status": "passed",
+              "duration": 5980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "aceita os \"Conditions of Use and Privacy Notice\"",
+            "result": {
+              "status": "passed",
+              "duration": 607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "o botão \"Register\" deve estar desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;usuário-preenche-todos-os-campos-do-formulário-de-registro-com-dados-válidos",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "Usuário preenche todos os campos do formulário de registro com dados válidos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 6898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4406000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "preenche os campos obrigatórios",
+            "result": {
+              "status": "passed",
+              "duration": 6960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "preenche dados pessoais",
+            "result": {
+              "status": "passed",
+              "duration": 2785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "preenche endereço",
+            "result": {
+              "status": "passed",
+              "duration": 3966000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "aceita receber ofertas e promoções exclusivas",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "aceita os termos de \"Conditions of Use and Privacy Notice\"",
+            "result": {
+              "status": "passed",
+              "duration": 515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 81,
+            "name": "clica no botão de \"Registrar\"",
+            "result": {
+              "status": "passed",
+              "duration": 590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "deve ser registrado com sucesso e redirecionado para a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 997000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;o-usuário-não-consegue-se-registrar-com-um-nome-de-usuário-já-utilizado",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "O usuário não consegue se registrar com um nome de usuário já utilizado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 3778000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 85,
+            "name": "o usuário cadastra com username já cadastrado",
+            "result": {
+              "status": "passed",
+              "duration": 6332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "uma mensagem de erro deve ser exibida indicando que o username já existe",
+            "result": {
+              "status": "passed",
+              "duration": 578000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registro-de-usuário-na-advantage-online-shopping;clicar-no-botão-de-\"já-possuo-uma-conta?\"",
+        "keyword": "Scenario",
+        "line": 88,
+        "name": "Clicar no botão de \"Já possuo uma conta?\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário acessa a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 4170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clica no ícone de \"Minha Conta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clica em \"Create New Account\"",
+            "result": {
+              "status": "passed",
+              "duration": 4843000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 89,
+            "name": "clica em \"ALREADY HAVE AN ACCOUNT?\"",
+            "result": {
+              "status": "passed",
+              "duration": 1654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 90,
+            "name": "abre um modal de login",
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
